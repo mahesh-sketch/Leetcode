@@ -7,5 +7,17 @@ class Solution {
             maxprofit = Math.max(maxprofit,prices[i]-mincost);
         }
         return maxprofit;
+        // int maxprofit= 0,diff;
+        // for(int i=0;i<prices.length;i++){
+        //     for(int j=i+1;j<prices.length;j++){
+        //         if(prices[i]<prices[j]){
+        //             diff = prices[j]-prices[i];
+        //             if(diff>=maxprofit){
+        //                maxprofit = diff;
+        //             }
+        //         }
+        //     }
+        // }
+        // return maxprofit;
     }
 }
