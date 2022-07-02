@@ -10,7 +10,7 @@ class Solution {
                }
            }
        }
-        return new int[] {};
+       return new int[] {};
         
 //            for(int i=0;i<n;i++){
 //                 int numb = nums[i];
